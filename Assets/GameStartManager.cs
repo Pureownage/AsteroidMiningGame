@@ -6,12 +6,14 @@ public class GameStartManager : MonoBehaviour {
 
 
     public GameObject AsteroidIron;
+    public int AmmountOfIron;
     public GameObject AsteroidGold;
+    public int AmmountOfGold;
     // Here, we spawn asteroids.
     void Start()
     {
-        SpawnAsteroids(AsteroidIron, 20);
-        SpawnAsteroids(AsteroidGold, 5);
+        SpawnAsteroids(AsteroidIron, AmmountOfIron);
+        SpawnAsteroids(AsteroidGold, AmmountOfGold);
     }
 
     // SpawnAsteroids takes in two argumnts, the asteroid we wanna spawn, and the ammount we want to spawn it by
