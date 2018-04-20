@@ -11,6 +11,8 @@ public class DroneController : MonoBehaviour {
     public GameObject asteroid;
     NavMeshAgent agent;
 
+    Jobs currentJob;
+
     // This code is mostly for testing purposes and will likely be removed.
     // Use this for initialization
     void Awake () {
@@ -19,6 +21,12 @@ public class DroneController : MonoBehaviour {
         //destination = asteroid.transform.position;
         //agent.destination = destination;
 	}
+
+
+    void CheckForJobs()
+    {
+        
+    }
 
     // Set the destination.
     public void SetDestination(GameObject Destination)

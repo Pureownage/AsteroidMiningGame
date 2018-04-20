@@ -9,8 +9,10 @@ public class AsteroidManager : MonoBehaviour {
     public Asteroid asteroid;
 
     //Using Scriptable Objects, we have an asteroid information class thingy send information to this.
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+
+
+    void Start()
     {
         // Custom function to move. We want to spawn outside of a circle around the base. This does it randomly enough.
         MoveAsteroid();

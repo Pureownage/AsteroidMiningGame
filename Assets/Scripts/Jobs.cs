@@ -11,7 +11,10 @@ public class Jobs
     Vector3 targetLocation;
 
 
+    public Jobs(GameObject A)
+    {
 
+    }
 
     void GetAsteroidData(AsteroidManager target)
     {
